@@ -20,3 +20,9 @@ Style/Documentation:
   Enabled: false
 Metrics/BlockLength:
   Enabled: false
+Metrics/AbcSize:
+  Enabled: false
+Naming/AccessorMethodName:
+  Enabled: false
+Metrics/MethodLength:
+  Enabled: false
