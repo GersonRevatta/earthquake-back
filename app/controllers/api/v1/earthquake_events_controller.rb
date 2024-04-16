@@ -14,7 +14,7 @@ module Api
           data: custom_json(earthquake_events),
           pagination: {
             current_page: 1,
-            total: EarthquakeEvent.count,
+            total: earthquake_events.count,
             per_page: 10
           }
         }
